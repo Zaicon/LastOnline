@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Last_Online
 {
-    [ApiVersion(1, 26)]
+    [ApiVersion(2, 0)]
     public class LastOnline : TerrariaPlugin
     {
         public override Version Version
@@ -17,7 +17,7 @@ namespace Last_Online
         }
         public override string Author
         {
-            get { return "Ancientgods"; }
+            get { return "Ancientgods, Enerdy"; }
         }
         public override string Name
         {
